@@ -1,0 +1,99 @@
+html,
+body {
+  padding: 10px;
+  margin: 10px;
+}
+/* .data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} */
+.id-card {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 100%;
+  border: 10px solid black;
+  border-style: double;
+  border-radius: 5%;
+  background-color: bisque;
+  justify-content: center;
+  justify-content: space-around;
+}
+.sponser {
+  text-align: center;
+  border-radius: 10%;
+  background-color: black;
+  border: 10px solid rgb(25, 90, 151);
+}
+.program {
+  text-align: center;
+  border-radius: 10%;
+  background-color: azure;
+  border: 10px solid goldenrod;
+}
+/* 
+.results {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+} 
+.rectangle {
+    width: 30%;
+    height: 100px;
+    background: black;
+    border-radius: 10px;
+}
+*/
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 5px solid rgb(218, 32, 57);
+  border-radius: 5%;
+  height: 400px;
+  width: 98%;
+  background-color: beige;
+}
+
+.image {
+  margin-top: 50px;
+  display: inline-block;
+  width: 30%;
+  height: 70%;
+  border-radius: 50%;
+  background-color: rgba(98, 153, 199, 0.685);
+}
+
+.square {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+  border: 2px solid black;
+}
+.circle {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(114, 147, 219);
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 100%;
+  /* background-color: linen;
+  border: 2px solid darkseagreen;
+  border-radius: 5%; */
+  text-align: left;
+}
+
+.sc-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
